@@ -12,7 +12,7 @@
 
 			<Panel class="dot4-social-buttons">
 				<Button id="dot4-social-button-discord-en" class="dot4-social-button"
-					onactivate="DOTADisplayURL('https://discord.gg/utcTUm');" />
+					onactivate="DOTADisplayURL('https://discord.gg/6MU8utn');" />
 			</Panel>
 		</Panel>
 	</Panel>
