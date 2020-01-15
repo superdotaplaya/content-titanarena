@@ -1,0 +1,34 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/dotastyles.css" />
+		<include src="file://{resources}/styles/custom_game/overthrow_game_info.css" />
+	</styles>
+	<Panel class="OverthrowGameInfo">
+		<Panel id="Title">
+			<Label id="TitleName" text="Titan Arena" />
+		</Panel>
+		<Label id="ObjectiveHeader" class="Header" html="true" text="The game is currently in beta and being developed!" />
+		<Label id="BriefDescription" text="The objective of the game is to get 50 kills by outfarming and outkilling the enemy teams, as well as winning duels every 10 minutes!" />
+		<Label id="HowToPlayHeader" class="Header" html="true" text="Farming Information" />
+		<Panel id="ThroneRow" class="InfoRow">
+			<Label id="ThroneText" html="true" text="Farming is done by killing neutral units and bosses around the map! camps that infinately stack are marked with this skull. [RED = HARD]     [YELLOW = MEDIUM]     [GREEN = EASY]     [HORNS = ANCIENTS]" />
+			<Image id="ThroneImage" src="file://{images}/custom_game/death-skull.png" />
+		</Panel>
+		<Panel id="CoinsRow" class="InfoRow">
+			<Image id="CoinsImage" src="file://{images}/custom_game/scorpion.png" />
+			<Label id="CoinsText" html="true" text="Bosses can be found scattered around the map and each have their own icons as well! [SCORPION = SCARAB] [KNIGHT = Dragon Knight]  [GLOBE CARRYING MAN = ELDER TITAN]  [HORNED FACE = WANDERER] Some bosses drop items that can be used to craft more powerful items!" />
+		</Panel>
+		<Panel id="ItemsRow" class="InfoRow">
+			<Label id="ItemsText" html="true" text="Titans are your allies, they will fight inside of duals with you, killing the enemy teams titan will reward you with bonus gold per second for a short time!" />
+			<Image id="ItemsImage" src="file://{images}/custom_game/titan.png" />
+		</Panel>
+		<Label id="TipsHeader" class="Header" html="true" text="Helpful Tips and Tricks" />
+		<Panel id="TipsRow" class="InfoRow">
+			<Label id="TipText01" class="TipText" html="true" text="Camps marked with a red triangle (in the mining area) will respawn when their spts are clear and be a higher level. This means they are stronger and are harder to kill but give a greater reward each time they are slain!" />
+			<Label id="TipText02" class="TipText" html="true" text="Bosses are VERY strong, only consider fighting them when you have your whole team with you!" />
+			<Label id="TipText03" class="TipText" html="true" text="We have added some new items and upgraded many old items! Check out the shop and click on items to see their upgrades!" />
+			<Label id="TipText04" class="TipText" html="true" text="The small greevil camps in the mine area of the map level up each time a new camp spawns so be careful! Clear them to increase their XP and gold bounties! But remember they get stronger as well!"  />
+		</Panel>
+	</Panel>
+</root>
+
