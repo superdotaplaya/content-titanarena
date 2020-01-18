@@ -41,7 +41,7 @@
 			m_bDisableChild = true
 		},
 		{
-			m_ChildRef = resource:"particles/econ/events/ti9/ti9_emblem_effect_light.vpcf"
+			m_ChildRef = resource:"particles/ti9_emblem_effect_light_super.vpcf"
 		},
 		{
 			m_ChildRef = resource:"particles/ti9_emblem_effect_ring_darken_super.vpcf"
