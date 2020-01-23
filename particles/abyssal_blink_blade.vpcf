@@ -164,6 +164,7 @@
 					m_Stops = [  ]
 				}
 			}
+			m_nColorBlendType = "PARTICLE_COLOR_BLEND_REPLACE"
 		},
 	]
 	m_Operators = 
