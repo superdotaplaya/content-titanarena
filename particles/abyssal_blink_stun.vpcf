@@ -24,7 +24,7 @@
 			m_ChildRef = resource:"particles/items_fx/abyssal_blade_impact04.vpcf"
 		},
 		{
-			m_ChildRef = resource:"particles/items_fx/abyssal_blade_crimson_impact_pnt_jugger.vpcf"
+			m_ChildRef = resource:"particles/abyssal_blink_blade.vpcf"
 		},
 		{
 			m_ChildRef = resource:"particles/items_fx/abyssal_blade_crimson_impact_sparks_hit.vpcf"
