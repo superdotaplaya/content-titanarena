@@ -1,0 +1,55 @@
+<root>
+
+	<styles>
+			<include src="file://{resources}/styles/custom_game/titan_arena_game_stats.css" />
+	</styles>
+
+
+
+	<scripts>
+			<include src="file://{resources}/scripts/custom_game/titan_arena_game_stats.js" />
+	</scripts>
+
+
+
+	<snippets>
+
+	</snippets>
+
+
+		<Panel class="stats">
+	<Panel class="stats1">
+		<Label id="gpm1" text="GPM GOES HERE" />
+	</Panel>
+	<Panel class="stats2">
+		<Label id="gpm2" text="GPM 2 GOES HERE" />
+	</Panel>
+		<Panel class="stats3">
+		<Label id="gpm3" text="GPM 3 GOES HERE" />
+	</Panel>
+		<Panel class="stats4">
+		<Label id="gpm4" text="GPM 4 GOES HERE" />
+	</Panel>
+		<Panel class="stats5">
+		<Label id="gpm5" text="GPM 5 GOES HERE" />
+	</Panel>
+		<Panel class="stats6">
+		<Label id="gpm6" text="GPM 6 GOES HERE" />
+	</Panel>
+		<Panel class="stats7">
+		<Label id="gpm7" text="GPM 7 GOES HERE" />
+	</Panel>
+		<Panel class="stats8">
+		<Label id="gpm8" text="GPM 8 GOES HERE" />
+	</Panel>
+		<Panel class="stats9">
+		<Label id="gpm9" text="GPM 9 GOES HERE" />
+	</Panel>
+		<Panel class="stats10">
+		<Label id="gpm10" text="GPM 10 GOES HERE" />
+	</Panel>
+
+</Panel>
+
+
+</root>

@@ -1,0 +1,123 @@
+.stats
+{
+width: 800px;
+height: 500px;
+font-size: 20px;
+horizontal-align: left;
+color: white;
+margin-left: 20px;
+vertical-align: top;
+margin-top: 500px;
+}
+
+.stats1
+{
+
+horizontal-align: left;
+vertical-align: top;
+margin-top: 50px;
+}
+.stats2
+{
+
+
+horizontal-align: left;
+
+vertical-align: top;
+margin-top: 70px;
+}
+.stats3
+{
+
+
+horizontal-align: left;
+
+vertical-align: top;
+margin-top: 90px;
+}
+.stats4
+{
+
+
+horizontal-align: left;
+
+vertical-align: top;
+margin-top: 110px;
+}
+.stats5
+{
+
+
+horizontal-align: left;
+
+vertical-align: top;
+margin-top: 130px;
+}
+.stats6
+{
+
+
+horizontal-align: left;
+
+vertical-align: top;
+margin-top: 150px;
+}
+.stats7
+{
+
+
+horizontal-align: left;
+
+vertical-align: top;
+margin-top: 170px;
+}
+.stats8
+{
+
+
+horizontal-align: left;
+
+vertical-align: top;
+margin-top: 190px;
+}
+.stats9
+{
+
+
+horizontal-align: left;
+
+vertical-align: top;
+margin-top: 210px;
+}
+.stats10
+{
+
+
+horizontal-align: left;
+
+vertical-align: top;
+margin-top: 230px;
+}
+
+.title
+{
+
+height: 50px;
+width: 300px;
+margin-top: 10px;
+margin-left: 50px;
+
+horizontal-align: left;
+
+
+
+}
+.numbers
+{
+width: 400px;
+height: 500px;
+horizontal-align: left;
+background-color: green;
+vertical-align: top;
+margin-top: 200px;
+}
