@@ -1,21 +1,21 @@
 .stats
 {
-width: 800px;
-height: 500px;
-font-size: 20px;
-horizontal-align: left;
-color: white;
-margin-left: 20px;
-vertical-align: top;
-margin-top: 500px;
+background-color: rgba(59, 59, 59, 0.43);
+  width: 600px;
+  height: 200px;
+  padding: 20px;
+  margin-top: 600px;
+  color: white;
 }
+
+
 
 .stats1
 {
 
 horizontal-align: left;
 vertical-align: top;
-margin-top: 50px;
+margin-top: 10px;
 }
 .stats2
 {
@@ -24,7 +24,7 @@ margin-top: 50px;
 horizontal-align: left;
 
 vertical-align: top;
-margin-top: 70px;
+margin-top: 30px;
 }
 .stats3
 {
@@ -33,7 +33,7 @@ margin-top: 70px;
 horizontal-align: left;
 
 vertical-align: top;
-margin-top: 90px;
+margin-top: 50px;
 }
 .stats4
 {
@@ -42,7 +42,7 @@ margin-top: 90px;
 horizontal-align: left;
 
 vertical-align: top;
-margin-top: 110px;
+margin-top: 70px;
 }
 .stats5
 {
@@ -51,7 +51,7 @@ margin-top: 110px;
 horizontal-align: left;
 
 vertical-align: top;
-margin-top: 130px;
+margin-top: 90px;
 }
 .stats6
 {
@@ -60,7 +60,7 @@ margin-top: 130px;
 horizontal-align: left;
 
 vertical-align: top;
-margin-top: 150px;
+margin-top: 110px;
 }
 .stats7
 {
@@ -69,7 +69,7 @@ margin-top: 150px;
 horizontal-align: left;
 
 vertical-align: top;
-margin-top: 170px;
+margin-top: 130px;
 }
 .stats8
 {
@@ -78,7 +78,7 @@ margin-top: 170px;
 horizontal-align: left;
 
 vertical-align: top;
-margin-top: 190px;
+margin-top: 150px;
 }
 .stats9
 {
@@ -87,7 +87,7 @@ margin-top: 190px;
 horizontal-align: left;
 
 vertical-align: top;
-margin-top: 210px;
+margin-top: 170px;
 }
 .stats10
 {
@@ -96,7 +96,7 @@ margin-top: 210px;
 horizontal-align: left;
 
 vertical-align: top;
-margin-top: 230px;
+margin-top: 190px;
 }
 
 .title
