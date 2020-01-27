@@ -100,3 +100,91 @@
   margin-left: 18%;
 }
 
+
+
+.dot4-voting {
+  width: 670px;
+  height: 50px;
+  vertical-align: top;
+  background-color: red;
+  margin-top: 15%;
+  padding: 0px;
+  flow-children: down;
+  margin-left: 6.5%;
+}
+
+.dot4-voting-buttons {
+  width: 100%;
+  flow-children: right;
+  margin-left: 4%;
+}
+
+.dot4-voting-buttons Button {
+  width: 100px;
+  height: 65px;
+  box-shadow: #000 0 0 20px 0; 
+
+  background-position: center center;
+}
+
+.AspectRatio4x3 .dot4-voting-buttons Button {
+  width: 204px;
+  height: 65px;
+  box-shadow: #000 0 20px 0; 
+  background-position: center center;
+}
+
+.dot4-voting-buttons Button:hover {
+  box-shadow: #111 0 0 20px 0;
+}
+
+.dot4-voting-buttons Button:active {
+  box-shadow: #333 0 0 20px 0;
+  width: 198px; 
+}
+
+.AspectRatio4x3 .dot4-voting-buttons Button:active {
+  width: 204px;
+  height: 65px;
+}
+
+.dot4-voting-button {
+  margin-left: 0px;
+  background-size: contain;
+  saturation: 0.9;
+}
+
+.dot4-voting-button:hover {
+  saturation: 1.0;
+}
+
+#dot4-voting-button-patreon-en {
+  background-image: url("file://{images}/custom_game/loading_screen/patreon.png");
+  background-size: cover;
+  color: black;
+}
+
+#dot4-voting-40 {
+  background-image: url("file://{images}/custom_game/loading_screen/vote-button-40.png"); 
+  background-size: 100% 100%;
+  margin-left: 20px;
+  color: black;
+
+}
+#dot4-voting-60 {
+  background-image: url("file://{images}/custom_game/loading_screen/vote-button-60.png"); 
+  background-size: 100% 100%;
+  margin-left: 50px;
+
+}
+#dot4-voting-80 {
+  background-image: url("file://{images}/custom_game/loading_screen/vote-button-80.png"); 
+  background-size: 100% 100%;
+  margin-left: 50px;
+
+}
+#dot4-voting-100 {
+  background-image: url("file://{images}/custom_game/loading_screen/vote-button-100.png"); 
+  background-size: 100% 100%;
+margin-left: 50px;
+}

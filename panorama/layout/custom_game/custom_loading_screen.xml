@@ -2,6 +2,10 @@
 	<styles>
 		<include src="file://{resources}/styles/custom_game/custom_loading_screen.css"/>
 	</styles>
+
+	<scripts>
+	<include src="file://{resources}/scripts/custom_game/voting.js"/>
+	</scripts>
 	<Panel class="AddonLoadingRoot">
 
 		<Panel id="TitlePanel"> 
@@ -13,6 +17,19 @@
 			<Panel class="dot4-social-buttons">
 				<Button id="dot4-social-button-discord-en" class="dot4-social-button"
 					onactivate="DOTADisplayURL('https://discord.gg/6MU8utn');" />
+			</Panel>
+		</Panel>
+		<Panel class="dot4-voting">
+
+			<Panel class="dot4-voting-buttons">
+				<Button id="dot4-voting-40" class="dot4-voting-button" text= "GPM 2 GOES HERE"
+					onactivate="Vote(40);" />
+									<Button id="dot4-voting-60" class="dot4-voting-button"
+					onactivate="Vote(60);" />
+									<Button id="dot4-voting-80" class="dot4-voting-button"
+					onactivate="Vote(80);" />
+									<Button id="dot4-voting-100" class="dot4-voting-button"
+					onactivate="Vote(100);" />
 			</Panel>
 		</Panel>
 	</Panel>
