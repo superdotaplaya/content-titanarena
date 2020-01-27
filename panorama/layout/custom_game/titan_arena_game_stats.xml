@@ -18,38 +18,43 @@
 
 
 		<Panel class="stats">
-	<Panel class="stats1">
+	<Panel class="stats1" id="stats1">
 		<Label id="gpm1" text="GPM GOES HERE" />
 	</Panel>
-	<Panel class="stats2">
+	<Panel class="stats2" id="stats2">
 		<Label id="gpm2" text="GPM 2 GOES HERE" />
 	</Panel>
-		<Panel class="stats3">
+		<Panel class="stats3" id="stats3">
 		<Label id="gpm3" text="GPM 3 GOES HERE" />
 	</Panel>
-		<Panel class="stats4">
+		<Panel class="stats4" id="stats4">
 		<Label id="gpm4" text="GPM 4 GOES HERE" />
 	</Panel>
-		<Panel class="stats5">
+		<Panel class="stats5" id="stats5">
 		<Label id="gpm5" text="GPM 5 GOES HERE" />
 	</Panel>
-		<Panel class="stats6">
+		<Panel class="stats6" id="stats6">
 		<Label id="gpm6" text="GPM 6 GOES HERE" />
 	</Panel>
-		<Panel class="stats7">
+		<Panel class="stats7" id="stats7">
 		<Label id="gpm7" text="GPM 7 GOES HERE" />
 	</Panel>
-		<Panel class="stats8">
+		<Panel class="stats8" id="stats8">
 		<Label id="gpm8" text="GPM 8 GOES HERE" />
 	</Panel>
-		<Panel class="stats9">
+		<Panel class="stats9" id="stats9">
 		<Label id="gpm9" text="GPM 9 GOES HERE" />
 	</Panel>
-		<Panel class="stats10">
+		<Panel class="stats10" id="stats10">
 		<Label id="gpm10" text="GPM 10 GOES HERE" />
+	</Panel>
+	<Panel class="duel-timer" id="timer">
+		<Label id="duel-countdown" text="Duel Timer" />
 	</Panel>
 
 </Panel>
+
+
 
 
 </root>
