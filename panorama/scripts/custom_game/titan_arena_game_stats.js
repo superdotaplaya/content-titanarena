@@ -15,29 +15,19 @@ var duel_start;
 
 // STARTS and Resets the loop if any
 function OnEntityKilled( data ) {
-var i;
-for (i = 0; i < 10; i++) {
-  player_gpm[i] = Players.GetGoldPerMin(i)
-  player_name[i] = Players.GetPlayerName(i)
-}
-$("#gpm1").text =  player_name[0] + " " + Math.trunc(player_gpm[0]) + " GPM"
-$("#gpm2").text = player_name[1] + " " + Math.trunc(player_gpm[1]) + " GPM"
-$("#gpm3").text = player_name[2] + " " + Math.trunc(player_gpm[2]) + " GPM"
-$("#gpm4").text = player_name[3] + " " + Math.trunc(player_gpm[3]) + " GPM"
-$("#gpm5").text = player_name[4] + " " + Math.trunc(player_gpm[4]) + " GPM"
-$("#gpm6").text = player_name[5] + " " + Math.trunc(player_gpm[5]) + " GPM"
-$("#gpm7").text = player_name[6] + " " + Math.trunc(player_gpm[6]) + " GPM"
-$("#gpm8").text = player_name[7] + " " + Math.trunc(player_gpm[7]) + " GPM"
-$("#gpm9").text = player_name[8] + " " + Math.trunc(player_gpm[8]) + " GPM"
-$("#gpm10").text = player_name[9] + " " + Math.trunc(player_gpm[9]) + " GPM"
 
 }
 
 function startTimer(duel_start,current_duel)
 {
+	player = Game.GetLocalPlayerID()
 	game_time = Game.GetDOTATime( false, false )
 	time_trunc = Math.trunc(game_time)
 	minutes = (duel_start - game_time)/60
+	  player_gpm = Players.GetGoldPerMin(player)
+  player_xpm = Players.GetTotalEarnedXP( player )/(game_time/60)
+  $("#gpm1").text = "GPM/XPM  " + Math.trunc(player_gpm) + " / " +  Math.trunc(player_xpm)
+  $.Msg(player_xpm)
 	if (current_duel >= 1)
 	{
 	seconds = 60 - (game_time % 60);
