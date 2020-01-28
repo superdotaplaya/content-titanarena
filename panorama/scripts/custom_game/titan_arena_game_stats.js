@@ -46,7 +46,7 @@ function startTimer(duel_start,current_duel)
 	}
 	if (game_time < duel_start)
 	{
-		$("#duel-countdown").text = "Duel starts in " + Math.trunc(minutes) + ":" + ("0" + Math.trunc(seconds)).slice(-2);
+		$("#duel-countdown").text = "Duel starts in " + Math.trunc(minutes) + ":" + ("0" + Math.trunc(seconds)).slice(-2)
 		$.Schedule(.2, function(){startTimer(duel_start,current_duel) })
 
 	} 
