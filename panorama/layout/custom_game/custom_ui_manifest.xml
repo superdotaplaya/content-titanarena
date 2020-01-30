@@ -65,6 +65,7 @@
 		<CustomUIElement type="EndScreen"           layoutfile="file://{resources}/layout/custom_game/multiteam_end_screen.xml"/>
 		<!--<CustomUIElement type="GameInfo"            layoutfile="file://{resources}/layout/custom_game/overthrow_game_info.xml"/>-->
 		<CustomUIElement type="Hud"                 layoutfile="file://{resources}/layout/custom_game/titan_arena_game_stats.xml"/>
+		<CustomUIElement type="Hud"                 layoutfile="file://{resources}/layout/custom_game/customization_shop.xml"/>
 
 
 		<!-- From Overthrow:

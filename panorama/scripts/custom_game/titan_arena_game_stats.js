@@ -27,7 +27,6 @@ function startTimer(duel_start,current_duel)
 	  player_gpm = Players.GetGoldPerMin(player)
   player_xpm = Players.GetTotalEarnedXP( player )/(game_time/60)
   $("#gpm1").text = "GPM/XPM  " + Math.trunc(player_gpm) + " / " +  Math.trunc(player_xpm)
-  $.Msg(player_xpm)
 	if (current_duel >= 1)
 	{
 	seconds = 60 - (game_time % 60);

@@ -1,0 +1,29 @@
+<root>
+
+	<styles>
+			<include src="file://{resources}/styles/custom_game/customization_shop.css" />
+	</styles>
+
+
+
+	<scripts>
+			<include src="file://{resources}/scripts/custom_game/customization_shop.js" />
+	</scripts>
+
+
+
+	<snippets>
+
+	</snippets>
+
+<Panel class="customization_shop_button">
+	<Panel class="buttons">
+	<Button id="ShuffleTeamAssignmentButton" onactivate="OpenShopPanel()">
+	<Image src="file://{images}/custom_game/loading_screen/loyalty_shop.png" />
+</Button>
+</Panel>
+
+</Panel>
+
+
+</root>

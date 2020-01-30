@@ -1,0 +1,43 @@
+<root>
+
+	<styles>
+			<include src="file://{resources}/styles/custom_game/custom_shop.css" />
+	</styles>
+
+
+
+	<scripts>
+			<include src="file://{resources}/scripts/custom_game/custom_shop.js" />
+	</scripts>
+
+	<snippets>
+
+	</snippets>
+
+<Panel class="shop_window">
+	<Panel class="shop_window_title" id="title" onload="loadShop()">
+
+		<Label id="shop-title" text="Customization Shop" />
+</Panel>
+<Panel class="dev_particle_icon" id="dev_particle_icon">
+	<Button id="ShuffleTeamAssignmentButton" onactivate="PlayerSelectDevParticle()">
+	<Image src="file://{images}/custom_game/loading_screen/developer_particle.png" />
+</Button>
+	<Panel class="dev_particle_title" id="dev_particle_title">
+		<Label id="dev_particle_text" text="Developer Particle" />
+</Panel>
+</Panel>
+<Panel class="beta_particle_icon" id="beta_particle_icon">
+	<Button id="ShuffleTeamAssignmentButton" onactivate="PlayerSelectBetaTester()">
+	<Image src="file://{images}/custom_game/loading_screen/beta-tester-particle.png" />
+</Button>
+	<Panel class="beta_particle_title" id="beta_particle_title">
+		<Label id="beta_particle_text" text="Beta Tester Particle" />
+
+</Panel>
+</Panel>
+
+</Panel>
+
+
+</root>

@@ -1,0 +1,27 @@
+.customization_shop_button
+{
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+
+	horizontal-align: right;
+	vertical-align: top;
+
+}
+#shop_button 
+{
+  background-image: url("file://{images}/custom_game/loading_screen/vote-button-40.png"); 
+  background-size: 100% 100%;
+  margin-left: 20px;
+  color: black;
+}
+
+.buttons
+{
+height: 50px;
+width: 50px;
+horizontal-align:center;
+vertical-align: center;
+background-size: 100% 100%;
+
+}
