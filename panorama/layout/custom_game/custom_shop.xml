@@ -15,6 +15,9 @@
 	</snippets>
 
 <Panel class="shop_window">
+	<Panel class="currency">
+	<Label id="player-currency" text="player_currency" />
+	</Panel>
 	<Panel class="shop_window_title" id="title" onload="loadShop()">
 
 		<Label id="shop-title" text="Customization Shop" />

@@ -61,3 +61,13 @@ font-size: 20px;
 
 
 }
+
+.currency
+{
+margin-top: 20px;
+width: 120px;
+font-size: 15px;
+horizontal-align: right;
+color: white;
+
+}
